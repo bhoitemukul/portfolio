@@ -70,7 +70,10 @@ export const Baner = () => {
               Food Menu.
             </div>
             <div className="content-row" style={{ color: "greenyellow" }}>
-              <b>Status :</b> Completed
+              <b>Link :</b>{" "}
+              <a target="_blank" href="https://aqs-bhoitemukul.vercel.app">
+                https://aqs-bhoitemukul.vercel.app
+              </a>
             </div>
             <div className="viwe-logo">
               <GoInfo />
@@ -93,7 +96,10 @@ export const Baner = () => {
               Food Menu.
             </div>
             <div className="content-row" style={{ color: "darkorange" }}>
-              <b>Status :</b> InProgress
+              <b>Link :</b>{" "}
+              <a target="_blank" href="https://foodies-bhoitemukul.vercel.app">
+                https://foodies-bhoitemukul.vercel.app
+              </a>
             </div>
             <div className="viwe-logo">
               <GoInfo />
