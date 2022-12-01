@@ -47,21 +47,6 @@ function Profile() {
                         <div className='table-data' onClick={handlefoodClick}> <a>view</a></div>
                         {isShown && <Fooddiieecard handleClick={handlefoodClick} />}
                     </div>
-                    <div className='table-row'>
-                        <div className='table-data'> UpComing</div>
-                        <div className='table-data'>Incomplited</div>
-                        <div className='table-data'> <a>view</a></div>
-                    </div>
-                    <div className='table-row'>
-                        <div className='table-data'> UpComing</div>
-                        <div className='table-data'>Incomplited</div>
-                        <div className='table-data'> <a>view</a></div>
-                    </div>
-                    <div className='table-row'>
-                        <div className='table-data'> UpComing</div>
-                        <div className='table-data'>Incomplited</div>
-                        <div className='table-data'> <a>view</a></div>
-                    </div>
                 </div>
             </div>
             <div className="profile-main-container" id="edu">
