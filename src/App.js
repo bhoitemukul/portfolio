@@ -6,9 +6,9 @@ import Ham from "./Components/ham/Ham";
 function App() {
   return (
     <div className="parent">
-      {/* <Landingpage />
+      <Landingpage />
       <Firstpage />
-      <Ham /> */}
+      <Ham />
     </div>
   );
 }
