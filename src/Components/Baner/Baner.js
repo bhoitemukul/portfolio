@@ -28,24 +28,6 @@ function GoInfo(props) {
 // export default GoInfo;
 
 export const Baner = () => {
-  const [changeheight, setChangeheight] = useState(0);
-
-  function openPdp(pdpNumber) {
-    setChangeheight(pdpNumber);
-  }
-
-  // function openPdp(x) {
-  //     var pd2 = document.getElementById("pd2");
-
-  //     if (x == 1) {
-  //         pd1.style.height = "300px";
-  //     }
-  //     else if (x == 2) {
-  //         pd1.style.height = "0px";
-  //     }
-  // }
-  // onClick = {() => openPdp(1)}
-
   return (
     <div>
       <div className="main-tag-container" id="project">
@@ -54,25 +36,19 @@ export const Baner = () => {
         </div>
       </div>
       <div className="banner-container">
-        <div
-          className="banner-content-container"
-          onClick={() => openPdp(changeheight == 1 ? 0 : 1)}
-        >
+        <div className="banner-content-container">
           <img src={Cardwave} alt="" />
           <div className="content">
             <div className="content-row">
-              {" "}
-              <b> Name :</b> Fooddiiee
+              <b> Name :</b> AQS
             </div>
             <div className="content-row">
-              {" "}
-              <b> Description :</b> The Site Create For Making Digitelis Your
-              Food Menu.
+              <b> Description :</b> This Site Create For Making Digitelis Your
+              Enterprises.
             </div>
             <div className="content-row" style={{ color: "greenyellow" }}>
-              <b>Link :</b>{" "}
               <a target="_blank" href="https://aqs-bhoitemukul.vercel.app">
-                https://aqs-bhoitemukul.vercel.app
+                <b>Go To Site</b>
               </a>
             </div>
             <div className="viwe-logo">
@@ -80,91 +56,20 @@ export const Baner = () => {
             </div>
           </div>
         </div>
-        <div
-          className="banner-content-container"
-          onClick={() => openPdp(changeheight == 2 ? 0 : 2)}
-        >
+        <div className="banner-content-container">
           <img src={Cardwave} alt="" />
           <div className="content">
             <div className="content-row">
-              {" "}
               <b> Name :</b> Food Site
             </div>
             <div className="content-row">
-              {" "}
               <b> Description :</b> The Site Create For Making Digitelis Your
               Food Menu.
             </div>
             <div className="content-row" style={{ color: "darkorange" }}>
-              <b>Link :</b>{" "}
               <a target="_blank" href="https://foodies-bhoitemukul.vercel.app">
-                https://foodies-bhoitemukul.vercel.app
+                <b>Go To Site</b>
               </a>
-            </div>
-            <div className="viwe-logo">
-              <GoInfo />
-            </div>
-          </div>
-        </div>
-        <div
-          className="banner-content-container"
-          onClick={() => openPdp(changeheight == 3 ? 0 : 3)}
-        >
-          <img src={Cardwave} alt="" />
-          <div className="content">
-            <div className="content-row">
-              {" "}
-              <b> Name :</b> Food Site
-            </div>
-            <div className="content-row">
-              {" "}
-              <b> Description :</b> The Site Create For Making Digitelis Your
-              Food Menu.
-            </div>
-            <div className="content-row" style={{ color: "red" }}>
-              <b>Status :</b> InCompleted
-            </div>
-            <div className="viwe-logo">
-              <GoInfo />
-            </div>
-          </div>
-        </div>
-        <div
-          className="banner-content-container"
-          onClick={() => openPdp(changeheight == 4 ? 0 : 4)}
-        >
-          <img src={Cardwave} alt="" />
-          <div className="content">
-            <div className="content-row">
-              <b> Name :</b> Food Site
-            </div>
-            <div className="content-row">
-              <b> Description :</b> The Site Create For Making Digitelis Your
-              Food Menu.
-            </div>
-            <div className="content-row" style={{ color: "darkorange" }}>
-              <b>Status :</b> InProgress
-            </div>
-            <div className="viwe-logo">
-              <GoInfo />
-            </div>
-          </div>
-        </div>
-        <div
-          className="banner-content-container"
-          onClick={() => openPdp(changeheight == 5 ? 0 : 5)}
-        >
-          <img src={Cardwave} alt="" />
-          <div className="content">
-            <div className="content-row">
-              <b> Name :</b> Food Site
-            </div>
-            <div className="content-row">
-              <b> Description :</b> The Site Create For Making Digitelis Your
-              Food Menu.
-            </div>
-            <div className="content-row" style={{ color: "darkorange" }}>
-              <b>Status :</b> InProgress
             </div>
             <div className="viwe-logo">
               <GoInfo />
@@ -173,191 +78,6 @@ export const Baner = () => {
         </div>
       </div>
       <div className="under-line"></div>
-      <div
-        className="project-details"
-        id="pd1"
-        style={{
-          height: changeheight == 1 ? "300px" : "0",
-          padding: changeheight == 1 ? "5%" : "0",
-        }}
-      >
-        <div className="detail-content">
-          <div className="detail-content-row">
-            <b>Name :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Details :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Status :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Used Languages :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Link :</b>
-          </div>
-        </div>
-        <div className="detail-content">
-          <div className="detail-content-row">Fooddiiee</div>
-          <div className="detail-content-row">
-            The Site Create For Making Digitelis Your Food Menu.
-          </div>
-          <div className="detail-content-row" style={{ color: "greenyellow" }}>
-            Completed
-          </div>
-          <div className="detail-content-row">Html, Css, JavaScript</div>
-          <div className="detail-content-row">Www.Fooddiiee.com</div>
-        </div>
-      </div>
-      <div
-        className="project-details"
-        id="pd1"
-        style={{
-          height: changeheight == 2 ? "300px" : "0",
-          padding: changeheight == 2 ? "5%" : "0",
-        }}
-      >
-        <div className="detail-content">
-          <div className="detail-content-row">
-            <b>Name :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Details :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Status :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Used Languages :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Link :</b>
-          </div>
-        </div>
-        <div className="detail-content">
-          <div className="detail-content-row">Fooddiiee</div>
-          <div className="detail-content-row">
-            The Site Create For Making Digitelis Your Food Menu.
-          </div>
-          <div className="detail-content-row" style={{ color: "darkorange" }}>
-            InProgress
-          </div>
-          <div className="detail-content-row">Html, Css, JavaScript</div>
-          <div className="detail-content-row">Www.Fooddiiee.com</div>
-        </div>
-      </div>
-      <div
-        className="project-details"
-        id="pd1"
-        style={{
-          height: changeheight == 3 ? "300px" : "0",
-          padding: changeheight == 3 ? "5%" : "0",
-        }}
-      >
-        <div className="detail-content">
-          <div className="detail-content-row">
-            <b>Name :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Details :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Status :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Used Languages :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Link :</b>
-          </div>
-        </div>
-        <div className="detail-content">
-          <div className="detail-content-row">Fooddiiee</div>
-          <div className="detail-content-row">
-            The Site Create For Making Digitelis Your Food Menu.
-          </div>
-          <div className="detail-content-row" style={{ color: "red" }}>
-            InCompleted
-          </div>
-          <div className="detail-content-row">Html, Css, JavaScript</div>
-          <div className="detail-content-row">Www.Fooddiiee.com</div>
-        </div>
-      </div>
-      <div
-        className="project-details"
-        id="pd1"
-        style={{
-          height: changeheight == 4 ? "300px" : "0",
-          padding: changeheight == 4 ? "5%" : "0",
-        }}
-      >
-        <div className="detail-content">
-          <div className="detail-content-row">
-            <b>Name :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Details :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Status :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Used Languages :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Link :</b>
-          </div>
-        </div>
-        <div className="detail-content">
-          <div className="detail-content-row">Fooddiiee</div>
-          <div className="detail-content-row">
-            The Site Create For Making Digitelis Your Food Menu.
-          </div>
-          <div className="detail-content-row" style={{ color: "darkorange" }}>
-            InProgress
-          </div>
-          <div className="detail-content-row">Html, Css, JavaScript</div>
-          <div className="detail-content-row">Www.Fooddiiee.com</div>
-        </div>
-      </div>
-      <div
-        className="project-details"
-        id="pd1"
-        style={{
-          height: changeheight == 5 ? "300px" : "0",
-          padding: changeheight == 5 ? "5%" : "0",
-        }}
-      >
-        <div className="detail-content">
-          <div className="detail-content-row">
-            <b>Name :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Details :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Status :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Used Languages :</b>
-          </div>
-          <div className="detail-content-row">
-            <b>Link :</b>
-          </div>
-        </div>
-        <div className="detail-content">
-          <div className="detail-content-row">Fooddiiee</div>
-          <div className="detail-content-row">
-            The Site Create For Making Digitelis Your Food Menu.
-          </div>
-          <div className="detail-content-row" style={{ color: "darkorange" }}>
-            InProgress
-          </div>
-          <div className="detail-content-row">Html, Css, JavaScript</div>
-          <div className="detail-content-row">Www.Fooddiiee.com</div>
-        </div>
-      </div>
     </div>
   );
 };
