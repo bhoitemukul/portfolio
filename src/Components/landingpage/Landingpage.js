@@ -42,9 +42,9 @@ function Landingpage() {
         id="container"
         style={{ display: disablepage }}
       >
-        <div className="image-container">
+        {/* <div className="image-container">
           <img src={limage} alt="" />
-        </div>
+        </div> */}
         <div className="switch-container">
           <div>
             <input

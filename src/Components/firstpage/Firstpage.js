@@ -16,7 +16,7 @@ function Firstpage() {
         <div className="container2">
           <div className="sub-container2">
             <div className="content">
-              Hey👋, <br /> I Am Mukul. I Just Triying To Explore My Self In
+              Hey👋, <br /> I Am Mukul. I Just Trying To Explore My Self In
               Front Of You.
             </div>
             <div className="wave"></div>
