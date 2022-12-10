@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Landingpage.scss";
+import limage from "../../Assets/baba.png";
 
 function Landingpage() {
   const [range, setrange] = useState(1);
@@ -41,6 +42,9 @@ function Landingpage() {
         id="container"
         style={{ display: disablepage }}
       >
+        <div className="image-container">
+          <img src={limage} alt="" />
+        </div>
         <div className="switch-container">
           <div>
             <input

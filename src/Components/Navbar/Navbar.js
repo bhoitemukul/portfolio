@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./Navbar.css";
+import Resume from "../../Assets/resume.pdf";
 
 function Navbar() {
   const [hamactive, sethamActive] = useState("");
@@ -168,13 +169,10 @@ function Navbar() {
               <div className="nav-logo ">
                 <GrNotes />
               </div>
-              <a onClick={() => sethamActive("")} href="#project">
+              <a onClick={() => sethamActive("")} href={Resume}>
                 Resume
               </a>
             </div>
-            {/* <div className="nav-row"> Experience</div>
-            <div className="nav-row">Education</div>
-            <div className="nav-row">Projects</div>      */}
           </div>
         </div>
       </div>

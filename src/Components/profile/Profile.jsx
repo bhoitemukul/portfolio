@@ -65,17 +65,17 @@ function Profile() {
                     <div className='table-row'>
                         <div className='table-data'> SSC</div>
                         <div className='table-data'>2013</div>
-                        <div className='table-data'> <a href="">view</a></div>
+                        <div className='table-data'>62.40%</div>
                     </div>
                     <div className='table-row'>
                         <div className='table-data'> HSC</div>
                         <div className='table-data'>2018</div>
-                        <div className='table-data'> <a href="">view</a></div>
+                        <div className='table-data'>62.61%</div>
                     </div>
                     <div className='table-row'>
                         <div className='table-data'> ITI</div>
                         <div className='table-data'>2016</div>
-                        <div className='table-data'> <a href="">view</a></div>
+                        <div className='table-data'>67.75%</div>
                     </div>
                 </div>
             </div>

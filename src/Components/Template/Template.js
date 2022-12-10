@@ -300,7 +300,7 @@ function Template() {
               <div className="profile-table-data">
                 <DiCss3 />
               </div>
-              <div className="profile-table-data">CSS</div>
+              <div className="profile-table-data">CSS, SCSS</div>
             </div>
             <div className="profile-table-row">
               <div className="profile-table-data">

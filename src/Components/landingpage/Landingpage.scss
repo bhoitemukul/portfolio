@@ -17,6 +17,17 @@
     width: 100%;
   }
 }
+
+.main-container .image-container {
+  height: 50%;
+  width: 70%;
+  margin: 0 auto;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
 body,
 html {
   background-color: #1d1c25;

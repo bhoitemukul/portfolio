@@ -30,9 +30,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="footer-sub-container2">
-          {/* <img src={Footerimage} alt="" /> */}
-        </div>
+        <div className="footer-sub-container2"></div>
       </div>
     </>
   );
